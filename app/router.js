@@ -7,6 +7,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('index')
+  this.route('dossiers');
+  this.route('nieuwetaxatie');
+  this.route('trajectkeuze');
+  this.route('gebruiker');
 });
 
 export default Router;

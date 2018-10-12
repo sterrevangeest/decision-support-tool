@@ -1,0 +1,8 @@
+@import "header.css";
+
+body {
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9;
+}
