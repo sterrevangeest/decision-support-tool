@@ -1,5 +1,14 @@
 /* scale */
 
+/* .scale {
+  grid-column: 1/2;
+  grid-row-start: 2;
+} */
+
+.ember-view {
+  grid-row-start: 2;
+}
+
 .scale {
   display: grid;
   grid-template-columns: auto 2fr;

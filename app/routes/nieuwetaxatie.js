@@ -1,5 +1,13 @@
 import Route from "@ember/routing/route";
 
+export default Route.extend({
+  model() {
+    return data;
+  }
+});
+
+console.log("hello");
+
 var data = [
   {
     title: "Algemeen",
@@ -105,19 +113,13 @@ var data = [
   }
 ];
 
-for (var category of data) {
-  console.log(category.title);
-  for (var question of category.questions) {
-    console.log("question", question);
-    console.log("label: ", question.label);
-    for (var option of question.options) {
-      console.log("option", option);
-    }
-  }
-}
-
-export default Route.extend({
-  model() {
-    return data;
-  }
-});
+// for (var category of data) {
+//   console.log(category.title);
+//   for (var question of category.questions) {
+//     console.log("question", question);
+//     console.log("label: ", question.label);
+//     for (var option of question.options) {
+//       console.log("option", option);
+//     }
+//   }
+// }

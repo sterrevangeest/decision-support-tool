@@ -4,67 +4,19 @@
 
 <h2>nieuwe taxatie maken</h2>
 <!-- calculation! -->
-<section class="scale">
-  <h3>Risico op een zware maatregel</h3>
+{{newtaxation-scale }}
 
-  <div class="bar">
-    <div class="high">
-    </div>
-    <div class="mid">
-    </div>
-    <div class="low">
-    </div>
-  </div>
-  <div class="legend">
-    <ul>
-      <li>Hoog risico</li>
-      <li>Middelmatig risico</li>
-      <li>Laag risico</li>
-    </ul>
-  </div>
-  <div class="percentage">
-    <ul>
-      <li>7%</li>
-      <li>6%</li>
-      <li>5%</li>
-      <li>4%</li>
-      <li>3%</li>
-      <li>2%</li>
-      <li>1%</li>
-      <li>0%</li>
-    </ul>
-  </div>
-</section>
+<!-- category -->
+{{newtaxation-filterlist }}
 
 <!-- form! -->
-<section class="form">
-<h3>Factoren</h3>
-{{#each model as |data |}}
+{{#each model as |dataUnit |}}
 
-<form class="" action="index.html" method="post">
+  {{newtaxation-form data=dataUnit}}
 
-   <fieldset>
-
-      <legend>{{data.title}}</legend>
-      {{#each data.questions as |questions |}}
-         <label>{{questions.label}}</label>
-
-         <select>
-           {{#each questions.options as |options |}}
-            <option value = "{{questions.weight}}">{{options}}</option>
-            {{/each}}
-
-         </select>
-         {{/each}}
-
-   </fieldset>
-
-</form>
 {{/each}}
 
 </section>
 
-
-</section>
 
 {{outlet}}

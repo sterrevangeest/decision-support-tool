@@ -4,8 +4,11 @@
 
 @import "newtaxation-scale.css";
 
+@import "newtaxation-filterlist.css";
+
 body {
-  font-family: system-ui;
+  font-family: "Source Sans Pro", sans-serif;
+
   margin: 0;
   padding: 0;
   background-color: #f5f6f8;
@@ -30,13 +33,14 @@ body {
   border: 0.05em solid #eaeaea;
   background-color: white;
   color: #4a4a4a;
+  border-radius: 0.2em;
 }
 
 .newtaxation {
   padding: 2em 4em;
   display: grid;
-  grid-template-columns: 1fr 0.5em 2fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1.3fr 0.5em 1fr 1.3fr;
+  grid-template-rows: auto 1fr;
 }
 
 .newtaxation .scale,
@@ -44,11 +48,7 @@ body {
   border: 0.05em solid #eaeaea;
   background-color: white;
   padding: 1em;
-}
-
-.scale,
-.form {
-  grid-row-start: 2;
+  border-radius: 0.2em;
 }
 
 h3 {
