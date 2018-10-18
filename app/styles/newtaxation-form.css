@@ -1,9 +1,5 @@
 .form {
-  grid-column-start: 4;
-  grid-row-start: 2;
-}
-
-.form {
+  grid-column: 4;
 }
 
 .form fieldset {

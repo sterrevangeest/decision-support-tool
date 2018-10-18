@@ -1,3 +1,4 @@
+<!-- form -->
 <section class="form">
   <h3>Factoren</h3>
   <form class="" action="index.html" method="post">
@@ -5,7 +6,7 @@
         <legend>{{data.title}}</legend>
           {{#each data.questions as |questions |}}
            <label>{{questions.label}}</label>
-           <select class="questions" onchange="changedvalue()" name="questions">
+           <select class="questions" onchange="changed_value()" name="questions">
              {{#each questions.options as |options |}}
               <option class="questions" value = "{{questions.weight}}">{{options}}</option>
               {{/each}}
@@ -15,16 +16,34 @@
   </form>
 </section>
 
+<!-- js -->
+
 <script type="text/javascript" >
-function changedvalue() {
-var element = document.querySelectorAll('.questions option:checked');
-console.log("yes");
-var element2 = document.querySelector(".score p")
-console.log(element2);
-var max = 7;
-var random_score = Math.random() * Math.floor(max);
-var score = Math.round(random_score * 10) / 10;
-element2.innerHTML = score;
-}
-</script>
+  function changed_value() {
+    var element = document.querySelector(".score p");
+    var max = 6.5;
+    var random_score = Math.random() * Math.floor(max);
+    var score = Math.round(random_score * 10) / 10;
+    element.innerHTML = score + ' %';
+    calculate_height(score);
+  }
+
+  function calculate_height(score){
+    var height = 96 -14.2 * score + "%";
+    // bron: https://medium.freecodecamp.org/learn-css-variables-in-5-minutes-80cf63b4025d :
+    var p = document.querySelector('div .score p');
+    var p_styling = getComputedStyle(p);
+    var p_top = p_styling.getPropertyValue('--p-top');
+    p.style.setProperty('--p-top', height)
+    //till here
+
+    // console.log(height)
+
+  }
+// var li_active = document.querySelectorAll("li");
+// console.log(li_active);
+// console.log("test");
+
+  </script>
+
 {{yield}}

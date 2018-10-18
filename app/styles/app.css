@@ -40,7 +40,7 @@ body {
   padding: 2em 4em;
   display: grid;
   grid-template-columns: 1.3fr 0.5em 1fr 1.3fr;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto 1fr 1fr;
 }
 
 .newtaxation .scale,
@@ -51,6 +51,28 @@ body {
   border-radius: 0.2em;
 }
 
-h3 {
+h2 {
   grid-row-start: 1;
+}
+
+/* grid */
+
+#ember185 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#ember186 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+#ember197 {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+#ember190 {
+  grid-column: 4;
+  grid-row: 2;
 }
