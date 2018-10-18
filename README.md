@@ -4,7 +4,7 @@ This **decision-support-tool** is a tool for social workers in Amsterdam who sup
 
 This app is built with a framework called Ember. [Ember.js](https://www.emberjs.com/) is an open-source JavaScript web framework.
 
-![screencapture of the application][screencapture.png]
+![screencapture of the application](screencapture.png)
 
 ## Prerequisites
 
