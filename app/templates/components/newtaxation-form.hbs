@@ -2,20 +2,29 @@
   <h3>Factoren</h3>
   <form class="" action="index.html" method="post">
      <fieldset>
-       {{#each model as |data |}}
         <legend>{{data.title}}</legend>
-        {{/each}}
-
-        {{#each data.questions as |questions |}}
+          {{#each data.questions as |questions |}}
            <label>{{questions.label}}</label>
-           <select  name="questions">
+           <select class="questions" onchange="changedvalue()" name="questions">
              {{#each questions.options as |options |}}
               <option class="questions" value = "{{questions.weight}}">{{options}}</option>
               {{/each}}
            </select>
-           {{/each}}
+          {{/each}}
      </fieldset>
   </form>
-
 </section>
+
+<script type="text/javascript" >
+function changedvalue() {
+var element = document.querySelectorAll('.questions option:checked');
+console.log("yes");
+var element2 = document.querySelector(".score p")
+console.log(element2);
+var max = 7;
+var random_score = Math.random() * Math.floor(max);
+var score = Math.round(random_score * 10) / 10;
+element2.innerHTML = score;
+}
+</script>
 {{yield}}
