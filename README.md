@@ -2,9 +2,11 @@
 
 This **decision-support-tool** is a tool for social workers in Amsterdam who support families with complex problems. The tool helps the social workers with making an indication about the chance that a child has to be separated from the parents.
 
+![screencapture of the application](screencapture.png)
+
 This app is built with a framework called Ember. [Ember.js](https://www.emberjs.com/) is an open-source JavaScript web framework.
 
-![screencapture of the application](screencapture.png)
+**Good to know::warning:** This app is still in progress, so some things may not work like you would expect them to work.
 
 ## Prerequisites
 
@@ -29,11 +31,3 @@ You will need the following things properly installed on your computer.
 ### Code Generators
 
 Make use of the many generators for code, try `ember help generate` for more details
-
-## Further Reading / Useful Links
-
-- [ember.js](https://emberjs.com/)
-- [ember-cli](https://ember-cli.com/)
-- Development Browser Extensions
-  - [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  - [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
