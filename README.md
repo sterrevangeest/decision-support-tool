@@ -58,10 +58,10 @@ While using Ember I learnt the basics of this framework. I used components and t
 
 **Pro’s & Cons of Ember**
 
-- :white_check_mark: Good documentation on Ember.js
-- :white_check_mark: Nice tutorial from Ember for learning and understanding the basics of this framework.
-- :white_check_mark: You can start coding quickly
+- :smiley: Good documentation on Ember.js
+- :smiley: Nice tutorial from Ember for learning and understanding the basics of this framework.
+- :smiley: You can start coding quickly
 
-- :negative_squared_cross_mark: A lot of files and directory’s can make you feel lost sometimes
-- :negative_squared_cross_mark: Writing tests takes a lot of time and effort.
-- :negative_squared_cross_mark: When you don’t write a test you can get a lot of errors while starting the server
+- :disappointed: A lot of files and directory’s can make you feel lost sometimes
+- :disappointed: Writing tests takes a lot of time and effort.
+- :disappointed: When you don’t write a test you can get a lot of errors while starting the server
