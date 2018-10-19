@@ -58,10 +58,10 @@ While using Ember I learnt the basics of this framework. I used components and t
 
 **Pro’s & Cons of Ember**
 
-- :smiley: Good documentation on Ember.js
-- :smiley: Nice tutorial from Ember for learning and understanding the basics of this framework.
-- :smiley: You can start coding quickly
+:smiley: Good documentation on Ember.js
+:smiley: Nice tutorial from Ember for learning and understanding the basics of this framework.
+:smiley: You can start coding quickly
 
-- :disappointed: A lot of files and directory’s can make you feel lost sometimes
-- :disappointed: Writing tests takes a lot of time and effort.
-- :disappointed: When you don’t write a test you can get a lot of errors while starting the server
+:disappointed: A lot of files and directory’s can make you feel lost sometimes
+:disappointed: Writing tests takes a lot of time and effort.
+:disappointed: When you don’t write a test you can get a lot of errors while starting the server
