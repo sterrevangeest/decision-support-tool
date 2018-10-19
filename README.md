@@ -45,3 +45,23 @@ You will need the following things properly installed on your computer.
 ### Code Generators
 
 Make use of the many generators for code, try `ember help generate` for more details
+
+## My process during the course
+
+Before this course I have never worked with a big framework like Ember. So, when choosing a framework, I looked for a framework that was doable to learn and had good documentation.
+
+Ember creates a lot of files and directories when you create a new application. In the beginning, I felt a little overwhelmed by all those files. But by following the tutorial and by building the application I found what all the different files and directories did.
+
+In think that Ember is great for starting a small and simple application and slightly growing to a more complex application.
+
+While using Ember I learnt the basics of this framework. I used components and templates, etc. I think that Ember has a lot of functionalities that I have not discovered yet. These functionalities can make building an application easier.
+
+**Pro’s & Cons of Ember**
+
+- :white_check_mark: Good documentation on Ember.js
+- :white_check_mark: Nice tutorial from Ember for learning and understanding the basics of this framework.
+- :white_check_mark: You can start coding quickly
+
+- :negative_squared_cross_mark: A lot of files and directory’s can make you feel lost sometimes
+- :negative_squared_cross_mark: Writing tests takes a lot of time and effort.
+- :negative_squared_cross_mark: When you don’t write a test you can get a lot of errors while starting the server
