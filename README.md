@@ -14,10 +14,15 @@ This app is built during a [frontend application course](https://github.com/cmda
 
 - [x] Data can be read and changed
 - [x] Changes to data are reflected in the interface
-- [ ] Changes persist across page reloads
-- [x] Users can log in and sign up
 
-Based on [rubric](https://github.com/cmda-tt/course-18-19/blob/master/frontend-applications/assessment.md) of the frontend course.
+**To do:**
+
+- [ ] Changes persist across page reloads
+- [ ] Values are based on the real algorithm
+- [ ] Risc-taxation can be saved and printed
+- [ ] ...
+
+Functionalities are based on the [rubric](https://github.com/cmda-tt/course-18-19/blob/master/frontend-applications/assessment.md) of the frontend course.
 
 ## Prerequisites
 
