@@ -6,7 +6,18 @@ This **decision-support-tool** is a tool for social workers in Amsterdam who sup
 
 This app is built with a framework called Ember. [Ember.js](https://www.emberjs.com/) is an open-source JavaScript web framework.
 
-**Good to know::warning:** This app is still in progress, so some things may not work like you would expect them to work.
+This app is built during a [frontend application course](https://github.com/cmda-tt/course-18-19/tree/master/frontend-applications) in association with [Garage2020](https://github.com/cmda-tt/course-18-19/tree/master/frontend-applications).
+
+**Good to know: :warning:** This app is still in progress, so some things may not work like you would expect them to work.
+
+## Functionalities
+
+- [x] Data can be read and changed
+- [x] Changes to data are reflected in the interface
+- [ ] Changes persist across page reloads
+- [x] Users can log in and sign up
+
+Based on [rubric](https://github.com/cmda-tt/course-18-19/blob/master/frontend-applications/assessment.md) of the frontend course.
 
 ## Prerequisites
 
